@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "incremental": true,
+        "target": "es6",
+        "module": "commonjs",
+        "lib": ["dom", "es6"],
+        "jsx": "react-jsx",
+        "strict": true,
+        "sourceMap": true,
+        "baseUrl": ".",
+        "paths": {
+            "@/*": ["./src/renderer/*"]
+        },
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "resolveJsonModule": true,
+        "allowJs": true,
+        "outDir": ".erb/dll"
+    },
+    "exclude": ["node_modules", "dist", "tmp", "test", "release",
+        ".erb/dll"
+    ]
+}
