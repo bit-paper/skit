@@ -10,7 +10,7 @@ import {
     ListItemIcon,
     Typography,
     Divider,
-    useTheme,
+    useTheme
 } from '@mui/material'
 import SettingsIcon from '@mui/icons-material/Settings'
 import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined'
@@ -31,7 +31,9 @@ export const drawerWidth = 240
 
 interface Props {
     openCopilotWindow(): void
+
     openAboutWindow(): void
+
     setOpenSettingWindow(name: 'ai' | 'display' | null): void
 }
 
@@ -58,21 +60,21 @@ export default function Sidebar(props: Props) {
                 width: drawerWidth,
                 borderRightWidth: '1px',
                 borderRightStyle: 'solid',
-                borderRightColor: theme.palette.divider,
+                borderRightColor: theme.palette.divider
             }}
         >
             <div className="ToolBar h-full">
                 <Stack
                     className="pt-3 pl-2 pr-1"
                     sx={{
-                        height: '100%',
+                        height: '100%'
                     }}
                 >
                     <Box className="flex justify-between items-center p-0 m-0 mx-2 mb-4">
                         <Box>
-                            <a href="https://chatboxai.app" target="_blank">
+                            <a>
                                 <img src={icon} className="w-8 h-8 mr-2 align-middle inline-block" />
-                                <span className="text-2xl align-middle inline-block">Chatbox</span>
+                                <span className="text-2xl align-middle inline-block">Skit</span>
                             </a>
                         </Box>
                         <Box></Box>

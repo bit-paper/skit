@@ -69,7 +69,7 @@ For more information: [chatboxai.app](https://chatboxai.app/)
 ---
 
 <h1 align="center">
-<img src='./doc/statics/icon.png' width='30'>
+<img src='./doc/statics/logo.svg' width='30'>
 <span>
     Chatbox
     <span style="font-size:8px; font-weight: normal;">(Community Edition)</span>

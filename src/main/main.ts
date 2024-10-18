@@ -30,7 +30,7 @@ class AppUpdater {
         const locale = new Locale()
 
         autoUpdater.logger = log
-        autoUpdater.setFeedURL('https://chatboxai.app/api/auto_upgrade/open-source')
+        // autoUpdater.setFeedURL('https://chatboxai.app/api/auto_upgrade/open-source')
         autoUpdater.checkForUpdatesAndNotify()
         autoUpdater.once('update-downloaded', (event) => {
             dialog
