@@ -1,6 +1,6 @@
 {
-    "name": "xyz.chatboxapp.ce",
-    "productName": "xyz.chatboxapp.ce",
+    "name": "skit.ce",
+    "productName": "skit.ce",
     "version": "0.0.1",
     "license": "GPL-3.0 license",
     "description": "A desktop client for multiple cutting-edge AI models",
@@ -26,12 +26,12 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/Bin-Huang/chatbox.git"
+        "url": "https://github.com/bit-paper/skit.git"
     },
     "keywords": [],
     "author": {
-        "name": "bennhuang",
-        "email": "tohuangbin@gmail.com"
+        "name": "BitPaper",
+        "email": "ijiapu@foxmail.com"
     },
     "devDependencies": {
         "@electron/notarize": "^2.0.0",
@@ -188,8 +188,8 @@
         ]
     },
     "build": {
-        "productName": "Chatbox CE",
-        "appId": "xyz.chatboxapp.ce",
+        "productName": "Skit CE",
+        "appId": "skit.ce",
         "asar": true,
         "asarUnpack": "**\\*.{node,dll}",
         "files": [
@@ -279,8 +279,8 @@
         "publish": [
             {
                 "provider": "github",
-                "owner": "Bin-Huang",
-                "repo": "chatbox"
+                "owner": "Bit-Paper",
+                "repo": "skit"
             }
         ]
     },

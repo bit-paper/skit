@@ -21,7 +21,7 @@ export async function event(name: string, params: any = {}) {
                     {
                         name: name,
                         params: {
-                            app_name: 'chatbox',
+                            app_name: 'skit',
                             app_version: app.getVersion(),
                             chatbox_platform_type: 'desktop',
                             chatbox_platform: 'desktop',
